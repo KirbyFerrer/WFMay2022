@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registartion Form</h1>
+    <p>First Name: *
+        <input type="text" name="First_Name">
+    </p>
+    <p>Last Name: *
+        <input type="text" name="Last_Name">
+    </p>
+    <p>Email Address: *    
+        <input type="test" name="Email Adress">
+    </p>
+    <p>Password: * 
+        <input type="password" name="password">
+    </p>
+    <p>Confirm Password: *  
+        <input type="password" name="Confirm Password">
+    </p>
+    <p>Birthday: * 
+        <input type="date" name="dob">
+    </p>
+    <p>Gender Identity:</p>
+    <input type="radio" name="Gender identity" value="Male" id="Male">
+        <label for="Male">Male</label> 
+    <input type="radio" name="Gender identity" value="Female" id="Female">
+        <label for="Female">Female</label>
+    <input type="radio" name="Gender identity" value="Non-binary" id="Non-binary">
+        <label for="Non-binary">Non-binary</label>
+    <input type="radio" name="Gender identity" value="Prefer_not_to_say" id="Prefer_not_to_say">
+        <label for="Prefer_not_to_say">Prefer not to say</label>
+        <p>A short description about me:</p>
+            <textarea name="About me" cols="25" rows="2"></textarea>
+        <p>Favorite language: <select name="Language">
+            <option>pyhon</option>
+            <option>Javascript</option>
+            <option>C#</option>
+            </select>
+        </p>
+    <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Yes, I would like to recieve periodic email updates</label>
+    <input type="submit" value="Create account">
+    <p>* Indicates a required fields</p>
+</body>
+</html>
