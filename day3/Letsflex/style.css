@@ -1,0 +1,16 @@
+.container{
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+}
+
+
+.child{
+    height: 100px;
+    background-color: blue;
+    color: antiquewhite;
+    font-size: 30px;
+    border: 1px dotted crimson;
+}
