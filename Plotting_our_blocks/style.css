@@ -3,8 +3,6 @@
     padding: 10px;
 }
 
-
-
 .container{
     width: 950px;
     background-color: silver;
@@ -19,15 +17,17 @@
     width: 179px;
     background-color: blue;
     display: inline-block;
+    vertical-align: top;
 }
 .main {
     height: 450px;
+    width: 680px;
     background-color: red;
     display: inline-block;
 }
 .sub-content {
     height: 200px;
-    width: 210px;
+    width: 179px;
     background-color: yellow;
     display: inline-block;
 }

@@ -1,0 +1,14 @@
+h1{
+    align-items: center;
+}
+
+.cat{
+    height: 200px;
+    display: flex block;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.top{
+    background-color: lightblue;
+}
