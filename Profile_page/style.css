@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navleft{
+    background-color: blue;
+    height: 40px;
+    width: 350px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.Profile{
+    display: inline-block;
+}
+
+.small{
+    display: inline-block;
+}
+
+.navright{
+    background-color: red;
+    height: 40px;
+    width: 150px;
+}
+
+
+
+.container_one{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 340px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.topaboutme{
+    background-color: rgb(7, 132, 107);
+    height: 80px;
+    width: 380px;
+}
+
+.botaboutme{
+    background-color: blueviolet;
+    height: 240px;
+    width: 380px;
+}
+
+.edit{
+    display: inline-block;
+    align-items: center;
+}
+
+.container_two{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 6px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 213px;
+    align-items: flex-start;
+}
+
+.education{
+    background-color: rgb(52, 49, 49);
+    height: 53px;
+    width: 225px;
+}
+
+.educationbot{
+    background-color: yellowgreen;
+    height: 80px;
+    width: 225px;
+}
+
+
+
+.container_three{
+    display: inline-block;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 337px;
+    margin-right: 25px;
+    margin-bottom: 99px;
+}
+
+.request{
+    background-color: rgb(52, 49, 49);
+    height: 80px;
+    width: 380px;
+}
+
+.todd{
+    background-color: yellowgreen;
+    height: 80px;
+    width: 380px;
+}
+
+
+
+.container_four{
+    display: inline-block;
+    justify-content: center;
+    margin-top: -90px;
+    margin-left: 6px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.your{
+    background-color: rgb(52, 49, 49);
+    height: 53px;
+    width: 225px;
+
+}
+
+.adrien{
+    background-color: yellowgreen;
+    width: 225px;
+    height: 221px;
+}
+
+.view{
+    background-color: hotpink;
+    width: 225px;
+    height: 50px;
+}
