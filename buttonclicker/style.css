@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(126, 131, 136);
+    width: 900px;
+    height: 50px;
+    margin-left: 280px;
+}
+
+.blue{
+    background-color: rgb(27, 27, 235);
+    color: white;
+    border: black;
+    height: 25px;
+    width: 45px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.container{
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+}
+
+.center{
+    display: inline-block;
+    align-content: center;
+    width: 228px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.ninjaj{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 280px;
+    margin-top: 35px;
+}
+
+.define{
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 280px;
+}
+
+.ninjad{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    width: 240px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 60px;
+}
+
+.italic{
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.under{
+    text-decoration: underline;
+    color: blue;
+}
+
+.yellow{
+    background-color: rgb(237, 237, 24);
+    height: 30px;
+    width: 77px;
+    box-shadow: 10px 5px 5px black;
+    margin-left: -6px;
+    margin-top: 15px;
+}
+
+.green{
+    background-color: green;
+    height: 30px;
+    width: 100px;
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 66px;
+    margin-top: 15px;
+}
+
+.inline{
+    display: inline-block;
+    justify-content: space-evenly; 
+    height:150px;
+    margin-left: 34px;
+}
