@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Dessert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navleft">
+            <h1>Just<span class="orange">Dessert</span></h1>
+        </div>
+        <div class="navright">
+            <button class="orangebutton" onclick="hide(this)">Join</button>
+            <button class="bluebutton" onclick="Logout(this)">Login</button>
+        </div>
+    </div>
+        <div class="searchbar">
+            <form>
+                <input type="text" placeholder="SEARCH"><button class="bluebutton" type="submit" value="Go">Go</button>
+            </form>
+            <div class="circle"><img class="searchimg" src="images/cake.png" alt="cakes"></div>
+            <div class="circle"><img class="searchimg" src="images/ice-cream.png" alt="Ice cream"></div>
+            <div class="circle"><img class="searchimg" src="images/cookie.png" alt="cookie"></div>
+            <div class="circle"><img class="searchimg" src="images/pie.png" alt="pie"></div>
+        </div>
+        <ul>
+            <li class="cake">cake</li>
+            <li class="ice">Ice Cream</li>
+            <li class="cook">Cookie</li>
+            <li class="pie">Pie</li>
+        </ul>
+        <div class="container">
+            <div class="recipeday">
+                <h2 class="center">Recipe of the Day</h2>
+                <img class="tart" src="images/orange-tart.jpg" alt="orange tart">
+                <div class="leftday">
+                    <p>Orange Tea Jelly Tart</p>
+                    <p class="text">by:<span class="under">yuripiano</span></p>
+                </div>
+                <div class="rightday">
+                    <img class="like" onClick="tlikes()" src="images/heart.png" alt="heart">
+                    <p class="number-1">68</p>
+                </div>
+                <h2 class="hunder">See Full Recipe</h2>
+            </div>
+            <div class="recommend">
+                <div class="retop">
+                    <h3>Recommended for you:</h3>
+                    <hr class="solid">
+                    <img class="small" src="images/macarons.jpg" alt="macarons">
+                    <p class="roflex">Macarons <img class="like-2" onClick="mlikes()" src="images/heart.png" alt="heart"><span class="number-2">212</span></p>
+                    <p>by:<span class="under">EmilieW</span></p>
+                </div>
+                <div class="rebot">
+                    <img class="small" src="images/creme-brulee.jpg" alt="Crème brûlée">
+                    <p class="roflex">Crème brûlée<img class="like-2" onClick="clikes()" src="images/heart.png" alt="heart"><span class="number-3">33</span></p>
+                    <p>by:<span class="under">MarisaG</span></p>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
